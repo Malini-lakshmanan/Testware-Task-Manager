@@ -1,0 +1,40 @@
+body{
+  background-color: rgb(214, 214, 226);
+  font: 1em sans-serif;
+}
+.card{
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+input{
+  margin:10px;
+  width: 500px;
+  padding: 10px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+button{
+  padding: 10px;
+  margin-left: 10px;
+  color: white;
+  background-color: rgb(21, 21, 84);
+  border: rgb(255, 254, 254);
+  border-radius: 3px;
+}
+
+ li {
+  display: flex;
+  padding: 10px;
+  gap: 9px;
+
+ }
+ li span{
+  flex-grow: 1;
+  border-bottom: 1px solid rgb(231, 218, 218);
+ }
+ 
